@@ -1,0 +1,7 @@
+dist
+node_modules
+*.config.js
+*.config.mjs
+coverage
+.env
+.env.*
