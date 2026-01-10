@@ -11,7 +11,7 @@ export class UserController {
   async getUserById(req: Request, res: Response): Promise<void> {
     const startTime = Date.now();
     // Validation middleware ensures params.id is a valid number
-    const userId = req.params.id as unknown as number;
+    const userId:number = req.params.id as unknown as number;
 
     try {
       const cacheKey = `${CACHE_KEYS.USER_PREFIX}${userId}`;

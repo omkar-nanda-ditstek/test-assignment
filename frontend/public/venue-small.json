@@ -1,0 +1,433 @@
+{
+  "venueId": "demo-theater",
+  "name": "Demo Theater - Small Venue",
+  "map": {
+    "width": 600,
+    "height": 400
+  },
+  "priceTiers": {
+    "1": {
+      "name": "Premium Orchestra",
+      "price": 150
+    },
+    "2": {
+      "name": "Standard Orchestra",
+      "price": 100
+    },
+    "3": {
+      "name": "Balcony",
+      "price": 75
+    }
+  },
+  "sections": [
+    {
+      "id": "ORCH-LEFT",
+      "label": "Orchestra Left",
+      "transform": {
+        "x": 50,
+        "y": 150,
+        "scale": 1
+      },
+      "rows": [
+        {
+          "index": 1,
+          "seats": [
+            {
+              "id": "ORCH-LEFT-1-01",
+              "col": 1,
+              "x": 0,
+              "y": 0,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "ORCH-LEFT-1-02",
+              "col": 2,
+              "x": 30,
+              "y": 0,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "ORCH-LEFT-1-03",
+              "col": 3,
+              "x": 60,
+              "y": 0,
+              "priceTier": 1,
+              "status": "reserved"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "seats": [
+            {
+              "id": "ORCH-LEFT-2-01",
+              "col": 1,
+              "x": 0,
+              "y": 30,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "ORCH-LEFT-2-02",
+              "col": 2,
+              "x": 30,
+              "y": 30,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "ORCH-LEFT-2-03",
+              "col": 3,
+              "x": 60,
+              "y": 30,
+              "priceTier": 2,
+              "status": "available"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ORCH-CENTER",
+      "label": "Orchestra Center",
+      "transform": {
+        "x": 200,
+        "y": 150,
+        "scale": 1
+      },
+      "rows": [
+        {
+          "index": 1,
+          "seats": [
+            {
+              "id": "ORCH-CENTER-1-01",
+              "col": 1,
+              "x": 0,
+              "y": 0,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "ORCH-CENTER-1-02",
+              "col": 2,
+              "x": 30,
+              "y": 0,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "ORCH-CENTER-1-03",
+              "col": 3,
+              "x": 60,
+              "y": 0,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "ORCH-CENTER-1-04",
+              "col": 4,
+              "x": 90,
+              "y": 0,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "ORCH-CENTER-1-05",
+              "col": 5,
+              "x": 120,
+              "y": 0,
+              "priceTier": 1,
+              "status": "available"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "seats": [
+            {
+              "id": "ORCH-CENTER-2-01",
+              "col": 1,
+              "x": 0,
+              "y": 30,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "ORCH-CENTER-2-02",
+              "col": 2,
+              "x": 30,
+              "y": 30,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "ORCH-CENTER-2-03",
+              "col": 3,
+              "x": 60,
+              "y": 30,
+              "priceTier": 2,
+              "status": "sold"
+            },
+            {
+              "id": "ORCH-CENTER-2-04",
+              "col": 4,
+              "x": 90,
+              "y": 30,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "ORCH-CENTER-2-05",
+              "col": 5,
+              "x": 120,
+              "y": 30,
+              "priceTier": 2,
+              "status": "available"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "seats": [
+            {
+              "id": "ORCH-CENTER-3-01",
+              "col": 1,
+              "x": 0,
+              "y": 60,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "ORCH-CENTER-3-02",
+              "col": 2,
+              "x": 30,
+              "y": 60,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "ORCH-CENTER-3-03",
+              "col": 3,
+              "x": 60,
+              "y": 60,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "ORCH-CENTER-3-04",
+              "col": 4,
+              "x": 90,
+              "y": 60,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "ORCH-CENTER-3-05",
+              "col": 5,
+              "x": 120,
+              "y": 60,
+              "priceTier": 2,
+              "status": "available"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ORCH-RIGHT",
+      "label": "Orchestra Right",
+      "transform": {
+        "x": 450,
+        "y": 150,
+        "scale": 1
+      },
+      "rows": [
+        {
+          "index": 1,
+          "seats": [
+            {
+              "id": "ORCH-RIGHT-1-01",
+              "col": 1,
+              "x": 0,
+              "y": 0,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "ORCH-RIGHT-1-02",
+              "col": 2,
+              "x": 30,
+              "y": 0,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "ORCH-RIGHT-1-03",
+              "col": 3,
+              "x": 60,
+              "y": 0,
+              "priceTier": 1,
+              "status": "available"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "seats": [
+            {
+              "id": "ORCH-RIGHT-2-01",
+              "col": 1,
+              "x": 0,
+              "y": 30,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "ORCH-RIGHT-2-02",
+              "col": 2,
+              "x": 30,
+              "y": 30,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "ORCH-RIGHT-2-03",
+              "col": 3,
+              "x": 60,
+              "y": 30,
+              "priceTier": 2,
+              "status": "available"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BALCONY",
+      "label": "Balcony",
+      "transform": {
+        "x": 150,
+        "y": 50,
+        "scale": 1
+      },
+      "rows": [
+        {
+          "index": 1,
+          "seats": [
+            {
+              "id": "BALCONY-1-01",
+              "col": 1,
+              "x": 0,
+              "y": 0,
+              "priceTier": 3,
+              "status": "available"
+            },
+            {
+              "id": "BALCONY-1-02",
+              "col": 2,
+              "x": 30,
+              "y": 0,
+              "priceTier": 3,
+              "status": "available"
+            },
+            {
+              "id": "BALCONY-1-03",
+              "col": 3,
+              "x": 60,
+              "y": 0,
+              "priceTier": 3,
+              "status": "available"
+            },
+            {
+              "id": "BALCONY-1-04",
+              "col": 4,
+              "x": 90,
+              "y": 0,
+              "priceTier": 3,
+              "status": "available"
+            },
+            {
+              "id": "BALCONY-1-05",
+              "col": 5,
+              "x": 120,
+              "y": 0,
+              "priceTier": 3,
+              "status": "available"
+            },
+            {
+              "id": "BALCONY-1-06",
+              "col": 6,
+              "x": 150,
+              "y": 0,
+              "priceTier": 3,
+              "status": "available"
+            },
+            {
+              "id": "BALCONY-1-07",
+              "col": 7,
+              "x": 180,
+              "y": 0,
+              "priceTier": 3,
+              "status": "sold"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "seats": [
+            {
+              "id": "BALCONY-2-01",
+              "col": 1,
+              "x": 0,
+              "y": 30,
+              "priceTier": 3,
+              "status": "available"
+            },
+            {
+              "id": "BALCONY-2-02",
+              "col": 2,
+              "x": 30,
+              "y": 30,
+              "priceTier": 3,
+              "status": "available"
+            },
+            {
+              "id": "BALCONY-2-03",
+              "col": 3,
+              "x": 60,
+              "y": 30,
+              "priceTier": 3,
+              "status": "available"
+            },
+            {
+              "id": "BALCONY-2-04",
+              "col": 4,
+              "x": 90,
+              "y": 30,
+              "priceTier": 3,
+              "status": "available"
+            },
+            {
+              "id": "BALCONY-2-05",
+              "col": 5,
+              "x": 120,
+              "y": 30,
+              "priceTier": 3,
+              "status": "available"
+            },
+            {
+              "id": "BALCONY-2-06",
+              "col": 6,
+              "x": 150,
+              "y": 30,
+              "priceTier": 3,
+              "status": "available"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
